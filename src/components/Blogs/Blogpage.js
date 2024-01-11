@@ -9,7 +9,7 @@ export default function Blogpage() {
     // get All blogs
     const getAllBlogs = async () => {
       try {
-        const { data } = await axios.get("/api/blog");
+        const { data } = await axios.get("/blog");
         if (data?.success) {
           setBlogs(data?.blogs);
         }
