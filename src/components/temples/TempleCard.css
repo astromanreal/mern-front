@@ -1,0 +1,128 @@
+/* Rocket card design */
+
+.card8-wrapper {
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* min-width: 300px; */
+  background: rgba(0, 0, 0, 0.1);
+  margin: 2rem 2rem;
+}
+.card8-widget {
+  width: 100%;
+  min-width: 300px;
+  height: 452px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 0px 7px 30px 0px rgba(50, 50, 50, 0.32);
+  -moz-box-shadow: 0px 7px 30px 0px rgba(50, 50, 50, 0.32);
+  box-shadow: 0px 7px 30px 0px rgba(50, 50, 50, 0.32);
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.widget__photo {
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
+  height: 300px;
+  background: no-repeat center;
+  background-size: contain;
+  /* background: no-repeat center / contain; */
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  transform: scale(1);
+}
+/* .widget__photo:after {
+  transition: 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 10;
+} */
+.widget__details {
+  padding: 30px;
+  position: relative;
+}
+.widget__name {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  width: 100%;
+  padding: 0 80px 0 0;
+}
+.widget__type {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.widget__info span {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.widget__info span:first-of-type {
+  margin-top: 15px;
+}
+.widget__table {
+  width: 100%;
+}
+.widget__table tr td {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 25px;
+}
+.widget__table tr td:first-child {
+  color: rgba(0, 0, 0, 0.4);
+}
+.widget__overlay {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.widget__button {
+  cursor: pointer;
+  transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: absolute;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 70%;
+  background-color: #14c852;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 12px;
+  left: 0;
+  right: 0;
+  top: -40px;
+}
+.card8-widget:hover .widget__button {
+  top: 32px;
+}
+.card8-widget:hover .widget__photo {
+  height: 150px;
+  min-width: 300px;
+  transform: scale(1.3);
+}
+.card8-widget:hover .widget__photo:after {
+  opacity: 1;
+}
+/* .card8-widget:hover .widget__overlay {
+  visibility: visible;
+  opacity: 1;
+} */
+
+/* Rocket card design */

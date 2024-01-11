@@ -1,0 +1,202 @@
+/* sikharji page intro start */
+.parall-container {
+  text-align: center;
+  color: #0080ff;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  /*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+.parall-container h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #000000;
+}
+
+.parall-container p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+  font-size: 1.4rem;
+  width: 70%;
+  color: #ffffff;
+}
+
+.parall-container a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 0.875rem;
+}
+
+/* sikharji page intro end */
+
+/* sikharji hover card */
+
+.sikharji-card-holder {
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Sikharji-sub-title {
+  font-size: 3rem;
+  padding: 18px;
+}
+.explore-card {
+  width: 190px;
+  height: 234px;
+  border-radius: 20px;
+  background: #4d4d56;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+  margin: 2rem 1rem;
+}
+
+.explore-card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.explore-text-body {
+  color: rgb(0, 0, 0);
+}
+
+/*Text*/
+.explore-text-title {
+  font-size: 1.5em;
+  color: aliceblue;
+  font-weight: bold;
+}
+.explore-text-title::first-letter {
+  text-transform: uppercase;
+}
+
+/*Hover*/
+.explore-card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.explore-card:hover .explore-card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+/* sikharji hover card */
+
+/* sikharji gallery */
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  justify-items: center;
+  margin: 1rem;
+}
+
+@media (min-width: 500px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1368px) {
+  .grid-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.image {
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 500px) {
+  .image {
+    width: 100%;
+    height: 50vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 100%;
+    height: 40vw;
+  }
+}
+
+@media (min-width: 1368px) {
+  .image {
+    width: 100%;
+    height: 20vw;
+  }
+}
+
+/* sikharji gallery */
+
+/* Sikharji Image Parallax start */
+
+.Sikharji-Image-Parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.unsplash.com/photo-1480497490787-505ec076689f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #538a77;
+}
+
+.Sikharji-Image-Parallax-p-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.unsplash.com/photo-1549880181-56a44cf4a9a5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+.Sikharji-Image-Parallax-p-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.unsplash.com/photo-1474401915596-3c5adf84ef01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+/* Sikharji Image Parallax end */

@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #c4c3ca;
+  background-color: #000000;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.my-container {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 1200px;
+}
+.form-container {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 600px;
+}
+
+/* Nothing page 404 design */
+.Nothing-back-to-home {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #4def9e;
+  position: relative;
+  font-weight: 1000;
+  font-size: 14px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+  overflow: hidden;
+}
+
+.Nothing-back-to-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #ff4d4d;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+  -webkit-transition: all 250ms;
+  transition: all 250ms;
+}
+.Nothing-back-to-home:hover {
+  color: #e8e8e8;
+}
+.Nothing-back-to-home:hover::before {
+  width: 100%;
+}
+
+.center-404 {
+  margin: 6rem;
+  font-size: large;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+/* .flex-center-all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2em 0;
+} */
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.scr-connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* input form design */
+.Uiregister-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.Uiregister-title {
+  font-size: 28px;
+  color: royalblue;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.Uiregister-title::before,
+.Uiregister-title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: royalblue;
+}
+
+.Uiregister-title::before {
+  width: 18px;
+  height: 18px;
+  background-color: royalblue;
+}
+
+.Uiregister-title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.Uiregister-flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.Uiregister-form label {
+  position: relative;
+}
+
+.Uiregister-form label .Uiregister-input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.Uiregister-form label .Uiregister-input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  font-size: 12px;
+  transition: 0.3s ease;
+}
+
+.Uiregister-form label .Uiregister-input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.Uiregister-form label .Uiregister-input:focus + span,
+.Uiregister-form label .Uiregister-input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.Uiregister-form label .Uiregister-input:valid + span {
+  color: green;
+}
+
+.Uiregister-submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.Uiregister-submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/* input form design */

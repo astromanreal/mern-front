@@ -1,0 +1,811 @@
+/* Pos test */
+
+/* pos test */
+
+/* Start Solution */
+
+.FinanceBusiness-solution {
+  background-image: URL("https://i.postimg.cc/kGzP84dG/05.png");
+  height: 700px;
+  position: relative;
+  padding: 150px 0;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.FinanceBusiness-solution .FinanceBusiness-container {
+  display: flex;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  width: 44%;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info h4 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info h2 {
+  font-size: 38px;
+  margin: 15px 0 35px;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info h2 span {
+  color: #a4c63b;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 33px;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info button {
+  background-color: #a4c63b;
+  color: #fff;
+  border: 1px solid #a4c63b;
+  border-radius: 30px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-info button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-numbers {
+  width: 50%;
+  position: relative;
+  z-index: 2;
+  margin-top: 42px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-numbers .FinanceBusiness-box {
+  width: 45%;
+  text-align: center;
+  line-height: 1.8;
+  background-color: rgba(88, 88, 88, 0.34);
+  padding: 26px;
+  font-weight: bold;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+
+.FinanceBusiness-solution
+  .FinanceBusiness-numbers
+  .FinanceBusiness-box:nth-of-type(2),
+.FinanceBusiness-solution
+  .FinanceBusiness-numbers
+  .FinanceBusiness-box:last-of-type {
+  margin-right: 0;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-numbers .FinanceBusiness-box h2 {
+  color: #a4c63b;
+  font-size: 35px;
+}
+
+.FinanceBusiness-solution .FinanceBusiness-numbers .FinanceBusiness-box p {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .FinanceBusiness-solution .FinanceBusiness-container {
+    padding: 0 15px;
+    flex-direction: row;
+  }
+}
+
+/* End Solution */
+/* pos test */
+/* Pos test */
+
+/* finance businuss */
+
+/* Finance Business */
+.FinanceBusiness-container {
+  width: 1140px;
+  margin: auto;
+}
+
+/* Start Landing Page */
+
+.FinanceBusiness-landing-page {
+  position: relative;
+  height: calc(100vh - 46px);
+  color: #fff;
+  background-size: cover;
+  background-image: URL("https://i.postimg.cc/nLsbFYC4/01.jpg");
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text {
+  position: absolute;
+  top: 52%;
+  left: 43%;
+  transform: translate(-50%, -50%);
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text span {
+  color: #a4c63b;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  width: 65%;
+  margin: 20px 0 30px;
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text p {
+  width: 72%;
+  font-size: 16px;
+  color: #efefef;
+  line-height: 1.8;
+  margin-bottom: 45px;
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text button {
+  color: #fff;
+  background-color: #a4c63b;
+  border: 1px solid #a4c63b;
+  border-radius: 20px;
+  padding: 12px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text:before {
+  content: "\f053";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  position: absolute;
+  left: -145px;
+  top: 55%;
+  cursor: pointer;
+}
+
+.FinanceBusiness-landing-page .FinanceBusiness-main-text:after {
+  content: "\f054";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 25px;
+  position: absolute;
+  right: -340px;
+  top: 55%;
+  cursor: pointer;
+}
+
+/* End Landing Page */
+
+/* Start Contact Us */
+
+.FinanceBusiness-contact {
+  background-color: #a4c63b;
+  color: #fff;
+  padding: 35px;
+  overflow: hidden;
+}
+
+.FinanceBusiness-contact .FinanceBusiness-container {
+  display: flex;
+}
+
+.FinanceBusiness-contact .FinanceBusiness-callback h2 {
+  margin-bottom: 15px;
+}
+
+.FinanceBusiness-contact .FinanceBusiness-callback p {
+  font-size: 17px;
+}
+
+.FinanceBusiness-contact .FinanceBusiness-cont-button {
+  text-align: right;
+  padding-top: 8px;
+  margin-left: auto;
+}
+
+.FinanceBusiness-contact .FinanceBusiness-cont-button button {
+  background-color: #a4c63b;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  padding: 14px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.FinanceBusiness-contact .FinanceBusiness-cont-button button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+/* End Contact Us */
+
+/* Start Services */
+
+.FinanceBusiness-services {
+  text-align: center;
+  padding: 150px 0;
+}
+
+.FinanceBusiness-services .FinanceBusiness-financial-text h2 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.FinanceBusiness-services .FinanceBusiness-financial-text h2 span {
+  color: #a4c63b;
+}
+
+.FinanceBusiness-services .FinanceBusiness-financial-text p {
+  color: #848484;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.FinanceBusiness-services .FinanceBusiness-boxes {
+  margin-top: 80px;
+  display: flex;
+}
+
+.FinanceBusiness-services .FinanceBusiness-boxes .FinanceBusiness-box {
+  width: 31%;
+  margin-right: 3%;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box:last-child {
+  margin-right: 0;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box
+  .FinanceBusiness-image {
+  width: 100%;
+  height: 235px;
+}
+
+.FinanceBusiness-services .FinanceBusiness-boxes .FinanceBusiness-box img {
+  max-width: 100%;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box
+  .FinanceBusiness-info {
+  padding: 25px;
+  text-align: left;
+  background-color: #f7f7f7;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box
+  .FinanceBusiness-info
+  h3 {
+  font-size: 22px;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box
+  .FinanceBusiness-info
+  p {
+  color: #545454;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 18px 0;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box
+  .FinanceBusiness-info
+  button {
+  color: #fff;
+  background-color: #a4c63b;
+  border: 1px solid #a4c63b;
+  border-radius: 20px;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+
+.FinanceBusiness-services
+  .FinanceBusiness-boxes
+  .FinanceBusiness-box
+  .FinanceBusiness-info
+  button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+/* End Services */
+
+/* Start Company */
+
+.FinanceBusiness-company {
+  padding: 150px 0;
+}
+
+.FinanceBusiness-company .FinanceBusiness-container {
+  display: flex;
+}
+
+.FinanceBusiness-company .FinanceBusiness-image {
+  width: 48%;
+  height: 525px;
+}
+
+.FinanceBusiness-company .FinanceBusiness-image img {
+  max-width: 100%;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info {
+  width: 52%;
+  padding: 37px 60px;
+  background-color: #f7f7f7;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info h4 {
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #737373;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info h2 {
+  font-size: 37px;
+  margin: 15px 0 40px;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info h2 span {
+  color: #a4c63b;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info p {
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 30px;
+  color: #4e4e4e;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info button {
+  background-color: #a4c63b;
+  color: #fff;
+  border: 1px solid #a4c63b;
+  border-radius: 30px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.FinanceBusiness-company .FinanceBusiness-info button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+/* End Company */
+
+/* Start Testimonials */
+
+.FinanceBusiness-testimonials {
+  text-align: center;
+  padding: 150px 0;
+  background-color: #f7f7f7;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-text {
+  width: 100%;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-text h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-text h2 span {
+  color: #a4c63b;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-text p {
+  text-transform: uppercase;
+  color: #8c8c8c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-box {
+  width: 48%;
+  padding: 35px;
+  margin-top: 80px;
+  margin-right: 4%;
+  background-color: #fff;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-box:nth-of-type(3) {
+  margin-right: 0;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-box h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-box p {
+  color: #a4c63b;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-test-box q {
+  margin: 10px 0;
+  line-height: 1.8;
+  color: #616161;
+  font-size: 15px;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-image {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-image img {
+  max-width: 100%;
+}
+
+.FinanceBusiness-testimonials .FinanceBusiness-image:last-child {
+  margin-right: 0;
+}
+
+/* End Testimonials */
+
+/* Start Request */
+
+.FinanceBusiness-request {
+  padding: 150px 0;
+}
+
+.FinanceBusiness-request .FinanceBusiness-req-text {
+  text-align: center;
+}
+
+.FinanceBusiness-request .FinanceBusiness-req-text h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.FinanceBusiness-request .FinanceBusiness-req-text h2 span {
+  color: #a4c63b;
+}
+
+.FinanceBusiness-request .FinanceBusiness-req-text p {
+  text-transform: uppercase;
+  color: #8c8c8c;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.FinanceBusiness-request form {
+  background-color: #a4c63b;
+  padding: 60px;
+  margin-top: 80px;
+}
+
+.FinanceBusiness-request form input {
+  width: 31%;
+  display: inline-block;
+  margin-right: 3%;
+  padding: 13px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+}
+
+.FinanceBusiness-request form input:last-of-type {
+  margin-right: 0;
+}
+
+.FinanceBusiness-request form textarea {
+  display: block;
+  width: 100%;
+  height: 130px;
+  margin: 30px 0;
+  padding: 18px;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+}
+
+.FinanceBusiness-request form button {
+  background-color: #a4c63b;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  margin: auto;
+  padding: 14px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  transition: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.FinanceBusiness-request form button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+.FinanceBusiness-request form input::placeholder,
+.FinanceBusiness-request form textarea::placeholder {
+  color: #939393;
+}
+
+/* End Request */
+
+/* Start Logos */
+
+.logos {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.logos img {
+  margin-right: 6%;
+}
+
+.logos img:last-child {
+  margin-right: 0;
+}
+
+/* End Logos */
+
+/* Start Footer */
+
+.FinanceBusiness-footer {
+  padding: 80px 0;
+  color: #fff;
+  background-color: #232323;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-container {
+  display: flex;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-finance-business {
+  width: 21%;
+  margin-right: 4%;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-finance-business h3 {
+  font-size: 21px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-finance-business p {
+  margin: 33px 0;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-finance-business i {
+  background-color: #fff;
+  color: #232323;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin-right: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-finance-business i:hover {
+  background-color: #232323;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.FinanceBusiness-footer
+  .FinanceBusiness-finance-business
+  i:first-of-type:hover {
+  color: #3b5998;
+}
+
+.FinanceBusiness-footer
+  .FinanceBusiness-finance-business
+  i:nth-of-type(2):hover {
+  color: #1da1f2;
+}
+
+.FinanceBusiness-footer
+  .FinanceBusiness-finance-business
+  i:nth-of-type(3):hover {
+  color: #0077b5;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-finance-business i:last-of-type:hover {
+  color: #e04646;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-useful-links {
+  margin-right: 11%;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-useful-links h3 {
+  font-size: 21px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-useful-links ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-useful-links ul li {
+  line-height: 2.4;
+  font-size: 15px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-additional-pages {
+  margin-right: 11%;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-additional-pages h3 {
+  font-size: 21px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-additional-pages ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-additional-pages ul li {
+  line-height: 2.4;
+  font-size: 15px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us {
+  width: 22%;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us h3 {
+  font-size: 21px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us form {
+  margin-top: 30px;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us form input {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 25px;
+  padding: 12px;
+  margin-bottom: 15px;
+  color: #fff;
+  background-color: #343434;
+  outline: none;
+}
+
+.footer .contact-us form textarea {
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 0;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #343434;
+  outline: none;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us form input::placeholder,
+.FinanceBusiness-footer .FinanceBusiness-contact-us form textarea::placeholder {
+  color: #8c8c8c;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us form button {
+  background-color: #a4c63b;
+  color: #fff;
+  border: 1px solid #a4c63b;
+  border-radius: 30px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.FinanceBusiness-footer .FinanceBusiness-contact-us form button:hover {
+  background-color: #fff;
+  color: #a4c63b;
+}
+
+/* End Footer */
+
+/* Start Copyright */
+
+.FinanceBusiness-copyright {
+  background-color: #343434;
+  color: #eee;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 15px;
+}
+
+/* End Copyright */
+/* Finance Business */
+
+/* finance businuss */

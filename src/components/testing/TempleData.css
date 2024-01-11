@@ -1,0 +1,197 @@
+.TempleData-container {
+  width: 800px;
+  margin: auto;
+}
+
+/* Start Landing Page */
+
+.TempleData-landing-page {
+  background-image: url(https://i.postimg.cc/QtNwJbP0/pexels-photo-248515.png);
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.TempleData-landing-page .TempleData-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.TempleData-landing-page .TempleData-text-intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.TempleData-landing-page .TempleData-text-intro h2 {
+  font-size: 40px;
+}
+
+.TempleData-landing-page .TempleData-text-intro p {
+  margin: 25px 0;
+  font-size: 14px;
+  line-height: 1TempleData-5;
+}
+
+.TempleData-landing-page .TempleData-text-intro button {
+  background-color: #333;
+  color: #fff;
+  width: 100px;
+  font-size: 13px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.TempleData-landing-page .TempleData-text-intro button:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+/* End Landing Page */
+
+/* Start Development */
+
+.TempleData-development {
+  text-align: center;
+  background-color: #eaeaea;
+  padding: 40px 0;
+}
+
+.TempleData-development h2 {
+  margin-bottom: 30px;
+}
+
+.TempleData-development p {
+  font-size: 15px;
+  column-count: 2;
+}
+
+/* End Development */
+
+/* Start Boxes Fields */
+
+.TempleData-fields {
+  background-color: #333;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.TempleData-fields .TempleData-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TempleData-fields .TempleData-boxes .TempleData-box {
+  width: 32%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.TempleData-fields .TempleData-boxes .TempleData-box img {
+  max-width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.TempleData-fields .TempleData-boxes .TempleData-box h3 {
+  margin: 20px 0 30px;
+}
+
+.TempleData-fields .TempleData-boxes .TempleData-box p {
+  font-size: 14px;
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+
+/* End Boxes Fields */
+
+/* Start Handle */
+
+.TempleData-handle {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.TempleData-handle h2 {
+  margin-bottom: 30px;
+}
+
+.TempleData-handle p {
+  font-size: 14px;
+}
+
+/* End Handle */
+
+/* Start Contact Us */
+
+.TempleData-info {
+  display: flex;
+}
+
+.TempleData-info .TempleData-contact,
+.TempleData-info .TempleData-about {
+  background-color: #2690d4;
+  padding: 40px;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+}
+
+.TempleData-info h3 {
+  margin-bottom: 35px;
+}
+
+.TempleData-info p {
+  font-size: 13px;
+  line-height: 1TempleData-5;
+  margin-bottom: 25px;
+}
+
+.TempleData-info .TempleData-contact span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.TempleData-info .TempleData-about {
+  background-color: #333;
+}
+
+/* End Contact Us */
+
+/* Start Footer */
+
+.TempleData-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.TempleData-footer h4 {
+  font-size: 12px;
+  float: left;
+  font-weight: normal;
+}
+
+.TempleData-footer h4:last-of-type {
+  float: right;
+}
+
+.TempleData-footer h4 span {
+  color: #2690d4;
+}
+
+/* End Footer */

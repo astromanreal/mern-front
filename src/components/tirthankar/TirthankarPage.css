@@ -1,0 +1,54 @@
+/* babysitter hero */
+
+/*  ===== BODY ========  */
+.Babysitter-hero {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/010/098/221/large_2x/empty-top-wooden-table-and-view-of-mountain-blur-background-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 1.2rem 2rem;
+}
+.Babysitter-section_1 {
+  height: 90vh;
+}
+.Babysitter-slogan {
+  margin-top: 4rem;
+}
+.Babysitter-slogan .Babysitter-slogan-title {
+  color: rgb(49, 35, 35);
+  font-size: 2rem;
+  letter-spacing: 0.01rem;
+  max-width: 30rem;
+}
+.Babysitter-slogan .Babysitter-slogan-text {
+  color: rgb(54, 37, 37);
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  margin: 1rem 0;
+  max-width: 28rem;
+}
+.Babysitter-hero-btn {
+  cursor: pointer;
+  background-color: hsla(20, 3%, 18%, 0.822);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 0.8rem 0;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  transition: background-color 300ms;
+}
+.Babysitter-hero-btn:hover,
+.Babysitter-hero-btn:focus {
+  background-color: hsl(12, 100%, 72%);
+}
+.Babysitter-home-btn-link {
+  color: hsl(260, 60%, 99%);
+  text-decoration: none;
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+/* babysitter hero */

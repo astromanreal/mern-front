@@ -1,0 +1,39 @@
+/* Single article */
+
+#Singlearticle-main {
+  margin-top: 1em;
+}
+
+#Singlearticle-main .blog-article-tag {
+  margin: auto;
+  max-width: 70ch;
+}
+
+.blog-link {
+  color: #5686f5;
+  cursor: pointer;
+}
+
+.blog-article-tag img {
+  width: 100%;
+  margin-block: 3em;
+  border-radius: 0.25em;
+}
+
+.highlight {
+  margin: auto;
+  margin-bottom: 3em;
+  background-color: rgb(58, 57, 57);
+  max-width: 60ch;
+  border-radius: 0.5em;
+  padding: 3em;
+}
+
+@media screen and (max-width: 760px) {
+  .highlight {
+    padding: 1.5em;
+    max-width: 70ch;
+  }
+}
+
+/* Single article design */

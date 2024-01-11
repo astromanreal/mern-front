@@ -1,0 +1,180 @@
+/* Media card post cssdesign */
+.media-post-card {
+  width: 370px;
+  background: lightgrey;
+  background-color: rgb(24 27 32);
+  border: 1px solid rgb(84 90 106);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 3rem;
+}
+.media-post-card a {
+  color: blue;
+  font-weight: 700;
+}
+
+.media-avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  background-image: linear-gradient(to top left, blueviolet, rgb(73, 31, 112));
+}
+
+.media-title {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.35s ease-in;
+}
+
+.media-title:hover {
+  text-decoration: underline blueviolet;
+}
+
+.datetime {
+  font-size: 12px;
+  color: rgb(168 179 207);
+  margin: 10px 0;
+}
+
+.image-preview {
+  /* flex: 1; */
+  max-height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 1.3rem;
+}
+
+.comment-like {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.comment-like span {
+  cursor: pointer;
+  height: 40px;
+  width: 50px;
+  padding: 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all 0.15s ease;
+}
+
+/* Media card post cssdesign */
+
+/* Community card */
+
+/* Card 6 */
+
+/* Profile post css design */
+
+.task {
+  position: relative;
+  color: #2e2e2f;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  margin-bottom: 1rem;
+  border: 3px dashed transparent;
+  max-width: 350px;
+  margin: 3rem;
+}
+
+.task:hover {
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+  border-color: rgba(162, 179, 207, 0.2) !important;
+}
+
+.task p {
+  font-size: 15px;
+  margin: 1.2rem 0;
+  white-space: normal;
+}
+
+.tag {
+  border-radius: 100px;
+  padding: 4px 13px;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #1389eb;
+}
+
+.tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  background: transparent;
+  border: 0;
+  color: #c4cad3;
+  font-size: 17px;
+}
+
+.options svg {
+  fill: #9fa4aa;
+  width: 20px;
+}
+
+.stats {
+  position: relative;
+  width: 100%;
+  color: #9fa4aa;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats div {
+  margin-right: 1rem;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.stats svg {
+  margin-right: 5px;
+  height: 100%;
+  stroke: #9fa4aa;
+}
+
+.viewer span {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(28, 117, 219);
+  margin-right: -10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 2px;
+}
+
+.viewer span svg {
+  stroke: #fff;
+}
+
+/* Profile post css design */
+/* Card 6 */
+
+/* Community card */

@@ -1,0 +1,216 @@
+.UserProfile-profile {
+  width: 100%;
+  /* margin: 20px auto; */
+  /* padding: 0 15px; */
+}
+
+/* Start Data */
+
+.UserProfile-data {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+@media (max-width: 767px) {
+  .UserProfile-data {
+    flex-direction: column;
+  }
+}
+
+.UserProfile-data .UserProfile-image {
+  border-right: 1px solid #ccc;
+  padding: 20px;
+  flex-basis: 20%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .UserProfile-data .UserProfile-image {
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.UserProfile-data .UserProfile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+.UserProfile-data .UserProfile-image h4 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.UserProfile-data .UserProfile-image .UserProfile-progress {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 18px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .UserProfile-data .UserProfile-image .UserProfile-progress {
+    width: 50%;
+    margin: 0 auto 10px;
+  }
+}
+
+.UserProfile-data .UserProfile-image .UserProfile-progress span {
+  background-color: #009688;
+  height: 100%;
+  width: 75%;
+  display: block;
+}
+
+.UserProfile-data .UserProfile-image p {
+  font-size: 12px;
+  color: #464646;
+}
+
+.UserProfile-data .UserProfile-image p span {
+  color: #009688;
+  font-weight: bold;
+}
+
+.UserProfile-data .UserProfile-info {
+  flex: 1;
+  padding: 20px 20px 10px 0;
+}
+
+@media (max-width: 767px) {
+  .UserProfile-data .UserProfile-info {
+    padding: 20px;
+  }
+}
+
+.UserProfile-data .UserProfile-info h2 {
+  margin: 0 0 20px;
+  font-size: 26px;
+}
+
+.UserProfile-data .UserProfile-info p {
+  color: #777;
+  line-height: 2;
+}
+
+.UserProfile-data .UserProfile-info p:last-child {
+  text-align: right;
+  padding-top: 60px;
+  font-size: 14px;
+}
+
+/* End Data */
+
+/* Start Points */
+
+.UserProfile-points {
+  padding: 20px;
+  background-color: white;
+}
+.UserProfile-profile div h3 {
+  background-color: #607d8b;
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.UserProfile-points li {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.UserProfile-points li:not(:last-child) {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.UserProfile-points span:first-child {
+  color: #009688;
+  font-weight: bold;
+}
+
+.UserProfile-points span:last-child {
+  color: #e91e6d;
+  font-weight: bold;
+}
+
+/* End Points */
+
+/* Start Trophies */
+
+.UserProfile-trophies {
+  padding: 20px;
+  background-color: white;
+}
+
+.UserProfile-trophies .UserProfile-holder img {
+  width: 100px;
+  margin: 1px;
+}
+
+.UserProfile-trophies .UserProfile-holder img.UserProfile-opacity {
+  opacity: 0UserProfile-1;
+}
+
+/* End Trophies */
+
+/* Start News */
+
+.UserProfile-news {
+  background-color: white;
+  padding: 20px;
+}
+
+.UserProfile-news p {
+  font-size: 18px;
+}
+
+.UserProfile-news p span:first-child {
+  color: #e91e6d;
+  font-weight: bold;
+}
+
+.UserProfile-news p span:last-child {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+/* End News */
+
+/* Start Powers */
+
+.UserProfile-powers {
+  background-color: white;
+  padding: 20px;
+}
+
+.UserProfile-powers li {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.UserProfile-powers li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.UserProfile-powers li .UserProfile-yes {
+  color: green;
+  font-weight: bold;
+}
+
+.UserProfile-powers li .UserProfile-no {
+  color: red;
+  font-weight: bold;
+}

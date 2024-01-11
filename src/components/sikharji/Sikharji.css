@@ -1,0 +1,54 @@
+/* SikharjiMountainGlas start */
+#GLass-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://picsum.photos/id/1018/1920/1080);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#GLass-section .GLass-box {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#GLass-section .box::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  bottom: -20px;
+  right: -20px;
+  background-image: url(https://picsum.photos/id/1018/1920/1080);
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(10px);
+}
+
+#GLass-section .box h2 {
+  position: relative;
+  margin: 0 0 1rem;
+  padding: 0;
+  z-index: 2;
+  font-size: 3em;
+  font-family: "Playfair Display", serif;
+}
+
+#GLass-section .box p {
+  position: relative;
+  margin: 20px 0 0 0;
+  padding: 0;
+  z-index: 2;
+  line-height: 1.25;
+  opacity: 0.75;
+}
+
+/* SikharjiMountainGlas end */

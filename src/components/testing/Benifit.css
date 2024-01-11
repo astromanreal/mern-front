@@ -1,0 +1,328 @@
+/* semi overlay  */
+.SemiOverlay-page1 {
+  width: 100%;
+  height: 100vh;
+}
+.SemiOverlay-page2 {
+  width: 100%;
+  height: 70vh;
+}
+
+/****************************** setting semi trans background when scrolled *******************/
+
+.SemiOverlay-page1 {
+  background: url("https://lh3.googleusercontent.com/Hst38SvCa5xtgws2_HPtjq7agdSJJ7I1_-HRDMdKfYos0t0665whMMfm4rWUKGAXtw0JxygZi-7BcAgluOrYPoa0A7IZYLJZkI1CqIl1oEPIWUAasiMkqrmoiV7qr85UGoRTTG91s9p38Lux0zmm8G5CXsSpzRR4GrOw3yhOcvC4rr3447X5RHRPKDszTxYBQBmkSUSENcWb7kluZN53HINlzNlQUy4PhaagcV5f6DRJG2TIcJzruS5RcXM22MZFXeK79vtUSTnY9S5FWz1j0Yrql9RKAiCs9lCLMl3fx6S8nRk7u_LOLWZZBVFuVsRqYVy_xngy5zLZ9FtTl2bkAa5T46RoyUU4A4LWlvRLHrZiow-fapsr2A6YJyvTKNpCvAGusSdrX27RlnanfS0BjRCu_7dzmHnExTfX6cSu_MJmmemObMVbN3qeGQb1x9v2PXV3UEsjw9SMzzb5ETm_Qh8Aso3Em0vXOwVKY7cq-GOjX20wGk6x8ml2grmBmKGMACzIaha8yjL6_IRJ2fZDZy7gkuuLGNnJswHo7USRzS3ifbCTHIGBKGNdPvOn6h79g6GA8YyWAqi0xzs_eCtfHuyf0UvD2ue6tjBJ5t69j-lxGvtQMsrqvMAGf6-QhfvnHrwUd5TCYRPB4SOIKmZZps9tXPp6Oh95lWnxjkjC=w1014-h662-no")
+    no-repeat center center; /*responsive bckgrnd img */
+  background-size: cover;
+  background-attachment: fixed; /* parallex effect 1*/
+}
+
+.SemiOverlay-page2 {
+  background-color: black;
+  opacity: 0.75;
+}
+.SemiOverlay-page2wrapper {
+  background: url("https://lh3.googleusercontent.com/Hst38SvCa5xtgws2_HPtjq7agdSJJ7I1_-HRDMdKfYos0t0665whMMfm4rWUKGAXtw0JxygZi-7BcAgluOrYPoa0A7IZYLJZkI1CqIl1oEPIWUAasiMkqrmoiV7qr85UGoRTTG91s9p38Lux0zmm8G5CXsSpzRR4GrOw3yhOcvC4rr3447X5RHRPKDszTxYBQBmkSUSENcWb7kluZN53HINlzNlQUy4PhaagcV5f6DRJG2TIcJzruS5RcXM22MZFXeK79vtUSTnY9S5FWz1j0Yrql9RKAiCs9lCLMl3fx6S8nRk7u_LOLWZZBVFuVsRqYVy_xngy5zLZ9FtTl2bkAa5T46RoyUU4A4LWlvRLHrZiow-fapsr2A6YJyvTKNpCvAGusSdrX27RlnanfS0BjRCu_7dzmHnExTfX6cSu_MJmmemObMVbN3qeGQb1x9v2PXV3UEsjw9SMzzb5ETm_Qh8Aso3Em0vXOwVKY7cq-GOjX20wGk6x8ml2grmBmKGMACzIaha8yjL6_IRJ2fZDZy7gkuuLGNnJswHo7USRzS3ifbCTHIGBKGNdPvOn6h79g6GA8YyWAqi0xzs_eCtfHuyf0UvD2ue6tjBJ5t69j-lxGvtQMsrqvMAGf6-QhfvnHrwUd5TCYRPB4SOIKmZZps9tXPp6Oh95lWnxjkjC=w1014-h662-no")
+    no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.SemiOverlay-content {
+  color: white;
+  padding: 12%;
+}
+
+/* semi overlay  */
+
+/* pokemon card */
+
+.Pokemon-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  transition: all 300ms ease;
+}
+.Pokemon-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.Pokemon-card__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px 32px;
+}
+.Pokemon-card__cover {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+}
+.Pokemon-card__tag {
+  background: #dd2020;
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.Pokemon-card__body {
+  padding: 20px;
+}
+.Pokemon-card__title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.Pokemon-card__desc {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #858484;
+  line-height: 1.6;
+}
+.Pokemon-card__cover--one {
+  background-image: url(https://cdn.dribbble.com/users/250235/screenshots/7885863/media/b2a6d5fb3c27de51d1c0c424296460ba.png);
+}
+.Pokemon-card__cover--two {
+  background-image: url(https://cdn.dribbble.com/users/769121/screenshots/11112077/media/1445dc22a15c2590ac332fc20abaf2df.jpg);
+}
+.Pokemon-card__cover--three {
+  background-image: url(https://cdn.dribbble.com/users/772985/screenshots/6034403/link_4x.png?compress=1&resize=1200x900);
+}
+
+/* pokemon card */
+
+/* dark card  */
+
+/* Container */
+.DarkCard-container {
+  width: 1200px;
+  height: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Cards */
+.DarkCard-card {
+  width: 320px;
+  height: 440px;
+  border-radius: 15px;
+  margin: 30px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+.DarkCard-card .DarkCard-box {
+  background-color: #2a2b2f;
+  border: 2px solid #1a1f23;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  transition: 0.5s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  overflow: hidden;
+}
+.DarkCard-card .DarkCard-box .DarkCard-content {
+  color: #fff;
+  opacity: 0.4;
+  transition: 0.5s;
+}
+.DarkCard-card .DarkCard-box .DarkCard-content h2 {
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  font-size: 8em;
+  color: rgba(255, 255, 255, 0.05);
+}
+.DarkCard-card .DarkCard-box .DarkCard-content h3 {
+  font-size: 2rem;
+  z-index: 1;
+}
+.DarkCard-card .DarkCard-box .DarkCard-content p {
+  font-size: 1rem;
+  line-height: 1.9;
+  z-index: 1;
+}
+.DarkCard-card .DarkCard-box .DarkCard-content a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.DarkCard-card .DarkCard-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.03);
+  pointer-events: none;
+}
+.DarkCard-card:hover .DarkCard-box {
+  transform: translateY(-50px);
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+}
+.DarkCard-card:hover .DarkCard-box .DarkCard-content {
+  opacity: 1;
+}
+.DarkCard-card:nth-child(1) .DarkCard-box .DarkCard-content a {
+  background-color: #2196f3;
+}
+.DarkCard-card:nth-child(2) .DarkCard-box .DarkCard-content a {
+  background-color: #e91e63;
+}
+.DarkCard-card:nth-child(3) .DarkCard-box .DarkCard-content a {
+  background-color: #97dc47;
+}
+
+/* dark card  */
+
+/* Hover card */
+.HoverCard-container {
+  width: 1120px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.HoverCard-container .HoverCard-card {
+  position: relative;
+  width: 300px;
+  height: 415px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.HoverCard-container:hover .HoverCard-card {
+  filter: blur(20px);
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+.HoverCard-container .HoverCard-card:hover {
+  filter: blur(0);
+  opacity: 1;
+  transform: scale(1.1);
+}
+.HoverCard-container .HoverCard-card:nth-child(1) .HoverCard-circle,
+.HoverCard-container .HoverCard-card:nth-child(1) .HoverCard-content a {
+  background-color: #ffaf00;
+}
+.HoverCard-container .HoverCard-card:nth-child(2) .HoverCard-circle,
+.HoverCard-container .HoverCard-card:nth-child(2) .HoverCard-content a {
+  background-color: #da2268;
+}
+.HoverCard-container .HoverCard-card:nth-child(3) .HoverCard-circle,
+.HoverCard-container .HoverCard-card:nth-child(3) .HoverCard-content a {
+  background-color: #bb02ff;
+}
+.HoverCard-container .HoverCard-card .HoverCard-circle {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(160px at center 0);
+  background-color: #000;
+}
+.HoverCard-container .HoverCard-card h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 40px;
+}
+.HoverCard-container .HoverCard-card .HoverCard-content {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+.HoverCard-container .HoverCard-card .HoverCard-content p {
+  font-size: 1.2rem;
+  color: #666;
+  padding-bottom: 15px;
+}
+.HoverCard-container .HoverCard-card .HoverCard-content a {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin: 18px 0 10px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+/* Hover card */
+
+/* wave background */
+#WaveBackground {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#WaveBackground::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: #179df7;
+  transform: translate(-50%, -180%) scale(3);
+}
+#WaveBackground .content {
+  line-height: 1.4;
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 4rem;
+  color: #fff;
+}
+#WaveBackground .content h1 {
+  font-size: 3rem;
+}
+#WaveBackground .content p {
+  font-size: 1.2rem;
+  max-width: 100vh;
+}
+@media screen and (max-width: 720px) {
+  #WaveBackground .content {
+    padding: 3rem;
+  }
+  #WaveBackground::before {
+    border-radius: 0;
+  }
+}
+/* wave background */

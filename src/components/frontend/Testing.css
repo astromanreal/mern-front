@@ -1,0 +1,506 @@
+/* feature product detail */
+.FeaturedProductDetail-container {
+  width: 850px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Start Navbar */
+
+.FeaturedProductDetail-navbar {
+  background-color: #363636;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.FeaturedProductDetail-navbar ul {
+  list-style: none;
+}
+
+.FeaturedProductDetail-navbar ul li {
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.FeaturedProductDetail-navbar ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.FeaturedProductDetail-navbar ul li a:hover {
+  color: #f88e38;
+}
+
+/* End Navbar */
+
+/* Start Content */
+
+.FeaturedProductDetail-content {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.FeaturedProductDetail-content h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  word-spacing: 10px;
+}
+
+.FeaturedProductDetail-cover {
+  width: 37%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-info {
+  background-color: #e2e2e2;
+  padding: 15px 20px 5px;
+  text-align: right;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-info q {
+  font-size: 8px;
+  width: 83%;
+  display: block;
+  text-align: right;
+  margin-left: auto;
+  margin-bottom: -5px;
+  line-height: 1.3;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-info span {
+  font-size: 9px;
+  margin-left: auto;
+  display: inline-block;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-info h3 {
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-series {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-series h2 {
+  text-align: right;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-image {
+  height: 230px;
+}
+
+.FeaturedProductDetail-cover .FeaturedProductDetail-image img {
+  max-width: 100%;
+}
+
+/* End Content */
+
+/* Start Order */
+
+.FeaturedProductDetail-order {
+  float: right;
+  margin-top: 70px;
+}
+
+.FeaturedProductDetail-order ul {
+  list-style: none;
+  text-align: center;
+}
+
+.FeaturedProductDetail-order ul li {
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.FeaturedProductDetail-order button {
+  background-color: #f88e38;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 0;
+  width: 260px;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  outline: 0;
+  cursor: pointer;
+  font-family: "BenchNine", sans-serif;
+  font-size: 16px;
+}
+
+/* End Order */
+
+/* Start Footer */
+
+.FeaturedProductDetail-footer {
+  background-color: #011926;
+  padding: 50px 0 20px;
+  color: #f7ffff;
+  text-align: center;
+}
+
+.FeaturedProductDetail-footer p {
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.FeaturedProductDetail-footer button {
+  background-color: #f88e38;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px 0;
+  width: 400px;
+  font-size: 12px;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  outline: 0;
+  cursor: pointer;
+  font-family: "BenchNine", sans-serif;
+  font-size: 16px;
+}
+
+/* End Footer */
+
+/* feature product detail */
+
+/* why choose us */
+.WhyChooseUs-choose-us {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.WhyChooseUs-heading-area {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.WhyChooseUs-heading-area h2 {
+  font-weight: 900;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+.WhyChooseUs-heading-area p {
+  font-size: 13px;
+  width: 460px;
+  color: #777;
+  margin: auto;
+}
+
+.WhyChooseUs-image {
+  width: 455px;
+  height: 455px;
+  position: relative;
+  background-image: URL("https://i.postimg.cc/mk6VSWSb/ian-battaglia-9drS5E_Rguc-unsplash.jpg");
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.WhyChooseUs-image .WhyChooseUs-overlay {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(64, 67, 86, 0.8);
+  border-radius: 50%;
+}
+
+.WhyChooseUs-image .WhyChooseUs-text {
+  position: relative;
+  text-align: center;
+}
+
+.WhyChooseUs-image .WhyChooseUs-text h3 {
+  margin-top: 120px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.WhyChooseUs-image .WhyChooseUs-text p {
+  font-size: 12px;
+  color: #cacaca;
+  width: 68%;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box {
+  overflow: hidden;
+  position: absolute;
+  left: -240px;
+  top: 0px;
+  width: 80%;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box .WhyChooseUs-info {
+  width: 240px;
+  margin-right: 8%;
+  text-align: right;
+  float: left;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box .WhyChooseUs-info h4 {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box .WhyChooseUs-info p {
+  font-weight: 600;
+  font-size: 11px;
+  color: #949494;
+  width: 90%;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box .WhyChooseUs-imgs {
+  float: left;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box .WhyChooseUs-imgs img {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 100%;
+  padding: 6px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-two {
+  bottom: 0;
+  top: auto;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-one .WhyChooseUs-info p,
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-two .WhyChooseUs-info p {
+  margin-left: auto;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-three {
+  left: auto;
+  right: -240px;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-three .WhyChooseUs-info,
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-four .WhyChooseUs-info {
+  float: right;
+  text-align: left;
+  margin-right: 0;
+  margin-left: 8%;
+}
+
+.WhyChooseUs-image .WhyChooseUs-box.WhyChooseUs-four {
+  left: auto;
+  right: -240px;
+  top: auto;
+  bottom: 0;
+}
+/* why choose us */
+
+/* footer2 */
+
+.Footer2-footer {
+  background-color: #333333;
+  padding: 30px 0 45px;
+  margin-top: 2%;
+  overflow: hidden;
+  width: 1365px;
+}
+
+.Footer2-container {
+  width: 1005px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.Footer2-footer .Footer2-contact {
+  width: 34%;
+  overflow: hidden;
+  float: left;
+}
+
+.Footer2-footer .Footer2-contact p {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.Footer2-footer .Footer2-contact .Footer2-data {
+  width: 43%;
+  float: left;
+  margin-right: 18px;
+}
+
+.Footer2-footer .Footer2-contact .Footer2-data h3 {
+  font-size: 10px;
+  color: #888;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+
+.Footer2-footer .Footer2-contact .Footer2-data span {
+  color: #e2e2e2;
+  font-size: 10px;
+}
+
+.Footer2-footer .Footer2-info {
+  width: 15%;
+  float: left;
+  margin-right: 40px;
+}
+
+.Footer2-footer .Footer2-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer2-footer .Footer2-info ul li {
+  color: #888;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.Footer2-footer .Footer2-account {
+  width: 15%;
+  float: left;
+  margin-right: 20px;
+}
+
+.Footer2-footer .Footer2-account ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer2-footer .Footer2-account ul li {
+  color: #888;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.Footer2-footer .Footer2-newsletter {
+  float: left;
+  width: 30%;
+}
+
+.Footer2-footer .Footer2-newsletter p {
+  color: #888;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.Footer2-footer .Footer2-newsletter input[type="email"] {
+  background-color: #4c4c4c;
+  border: 0;
+  padding: 7px 8px;
+  outline: 0;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+.Footer2-footer .Footer2-newsletter ::placeholder {
+  color: #999;
+}
+
+.Footer2-footer .Footer2-newsletter button {
+  background-color: #e52727;
+  border: 0;
+  color: #fff;
+  padding: 8px 18px;
+  font-size: 11px;
+  border-radius: 2px;
+}
+
+.Footer2-footer .Footer2-newsletter span {
+  color: #888;
+  font-size: 11px;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons {
+  margin-top: 8px;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i {
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i:first-of-type {
+  background-color: #3c5a99;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i:nth-of-type(2) {
+  background-color: #00a1e7;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i:nth-of-type(3) {
+  background-color: #e32e2e;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i:nth-of-type(4) {
+  background-color: #815dc7;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i:nth-of-type(5) {
+  background-color: #ffc338;
+  color: #333;
+}
+
+.Footer2-footer .Footer2-newsletter .Footer2-icons i:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.Footer2-copyright {
+  background-color: #2b2b2b;
+  padding: 20px 0 10px;
+  overflow: hidden;
+  width: 1365px;
+}
+
+.Footer2-copyright .Footer2-powered {
+  color: #888;
+  font-size: 11px;
+  float: left;
+}
+
+.Footer2-copyright .Footer2-powered span {
+  color: #e2e2e2;
+}
+
+.Footer2-copyright .Footer2-company {
+  float: right;
+}
+
+.Footer2-copyright .Footer2-company img {
+  width: 35px;
+}
+/* footer2 */

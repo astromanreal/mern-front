@@ -1,0 +1,97 @@
+.temple-testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 3px;
+}
+#temple-form {
+  width: 100%;
+  color: black;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px #ccc;
+}
+.item input,
+.city-item select,
+.item textarea {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.item input {
+  width: calc(100% - 10px);
+  padding: 5px;
+}
+.city-item select {
+  width: 100%;
+  padding: 7px 0;
+  background: transparent;
+}
+.item textarea {
+  width: calc(100% - 6px);
+}
+.item {
+  position: relative;
+  margin: 10px 0;
+}
+.item:hover p,
+.item:hover i {
+  color: #095484;
+}
+.item input:hover,
+.city-item select:hover,
+.item textarea:hover,
+.preferred-metod label:hover .item input {
+  box-shadow: 0 0 5px 0 #095484;
+}
+.preferred-metod label {
+  display: block;
+  margin: 5px 0;
+}
+.preferred-metod:hover input {
+  box-shadow: none;
+}
+.preferred-metod-item input,
+.preferred-metod-item span {
+  width: auto;
+  vertical-align: middle;
+}
+.preferred-metod-item input {
+  margin: 0 5px 0 0;
+}
+
+.btn-block {
+  margin-top: 20px;
+  text-align: center;
+}
+.btn-block button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #095484;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-block button:hover {
+  background-color: #0666a3;
+}
+@media (min-width: 568px) {
+  .name-item,
+  .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .name-item input,
+  .city-item input {
+    width: calc(50% - 20px);
+  }
+  .city-item select {
+    width: calc(50% - 8px);
+  }
+}

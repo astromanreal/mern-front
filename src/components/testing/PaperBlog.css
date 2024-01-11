@@ -1,0 +1,80 @@
+/* tirthankar article */
+
+#TirthankarArticle-section h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+#TirthankarArticle-section h2 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+.TirthankarArticle-columns p {
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+.TirthankarArticle-quote {
+  -moz-column-span: all;
+  -webkit-column-span: all;
+  column-span: all;
+  font-size: 1.2rem;
+  border-top: 2px solid #36454f;
+  border-bottom: 2px solid #36454f;
+  padding: 1rem 0;
+  line-height: 2rem;
+}
+
+.TirthankarArticle-paper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4%;
+  padding-bottom: 6%;
+  background: #e1d4c0;
+  color: black;
+  transform: rotate(-0.005turn);
+  box-shadow: 2px 3px 5px #36454f;
+}
+.TirthankarArticle-by-box {
+  border-top: 1px solid #36454f;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.TirthankarArticle-by {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0 1%;
+  background: #e1d4c0;
+  top: -0.65rem;
+}
+.TirthankarArticle-embellish {
+  position: relative;
+  top: -1rem;
+  font-family: "Playball", cursive;
+  font-size: 3.5rem;
+  text-transform: lowercase;
+  background: #e1d4c0;
+}
+.TirthankarArticle-columns {
+  -moz-column-count: 2;
+  /* Firefox */
+  -webkit-column-count: 2;
+  /* Safari and Chrome */
+  column-count: 2;
+  -webkit-column-gap: 1.5rem;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 1.5rem;
+  /* Firefox */
+  column-gap: 1.5rem;
+}
+
+/* tirthankar article */

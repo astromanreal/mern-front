@@ -1,0 +1,100 @@
+/* temple parallax */
+
+.TempleParallax-parallax {
+  background-attachment: fixed;
+  background-position-y: -0.2;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.TempleParallax-full-height {
+  height: 100vh;
+}
+
+.TempleParallax-grid-center h1 {
+  text-transform: uppercase;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.TempleParallax-grid-center {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  z-index: 100;
+  background-color: #413e3b;
+  color: yellow;
+}
+/* temple parallax */
+
+/* gallery */
+
+/* Header ======================== */
+.TempleDetailsGallery-header {
+  padding: 2rem;
+  text-align: center;
+}
+.TempleDetailsGallery-header h1 {
+  color: #9bb190;
+  font-family: "Crete Round", serif;
+  font-size: 4rem;
+  letter-spacing: 0.35rem;
+  margin: 0;
+}
+
+/* Posts ======================== */
+#postsContainer {
+  margin: 0 auto;
+  padding: 12px 0 0;
+  position: relative;
+  text-align: center;
+  z-index: -2;
+}
+#postsContainer li {
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+/* Polaroid image styles ======================== */
+.polaroid li {
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #ece9e6, #fafafa);
+  background: linear-gradient(to bottom, #ece9e6, #fafafa);
+  display: inline-block;
+  margin: 0 12px;
+  padding: 12px 12px 48px 12px;
+  position: relative;
+}
+.polaroid article h1 {
+  color: red;
+}
+
+.polaroid article {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.polaroid article img {
+  width: 300px;
+  height: 300px;
+}
+@media only screen and (max-width: 330px) {
+  .polaroid article {
+    width: 264px;
+    height: 264px;
+  }
+  .polaroid article img {
+    width: 264px;
+    height: 264px;
+  }
+}
+
+/* gallery */

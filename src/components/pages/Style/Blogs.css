@@ -1,0 +1,110 @@
+/* Start Article */
+.Blog-main-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: #615f5f;
+}
+/* Small */
+@media (min-width: 768px) {
+  .Blog-main-container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .Blog-main-container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .Blog-main-container {
+    width: 1170px;
+  }
+}
+
+.Email-article {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Email-article .Email-data {
+  background-image: url(https://i.Email-postimg.Email-cc/1zGXjpnn/florian-wehde-1LaUP9zVNhk-unsplash.Email-jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 500px;
+  /* position: relative; */
+  padding: 20px;
+  color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.Email-article .Email-data::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(26 28 30 / 64%);
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .Email-article .Email-data {
+    flex-direction: column;
+  }
+}
+
+.Email-article .Email-data .Email-text {
+  flex-basis: 50%;
+}
+
+.Email-article .Email-data .Email-text h2 {
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.Email-article .Email-data .Email-text h2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 65px;
+  height: 4px;
+  background-color: #ed4c21;
+}
+
+.Email-article .Email-data .Email-text p {
+  color: #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.Email-article .Email-data .Email-text button {
+  background-color: #ed4c21;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  padding: 13px 15px;
+  font-size: 18px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.Email-article .Email-data img {
+  width: 400px;
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .Email-article .Email-data img {
+    display: none;
+  }
+}
+
+/* End Article */

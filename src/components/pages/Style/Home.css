@@ -1,0 +1,345 @@
+/* Image animaton start */
+/* About section start 4 image ato slide show and text animation */
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 100px;
+}
+
+/* Cover and Image Animation configuration */
+.about-hero {
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+}
+.about-hero .about-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  background-color: #9eacc6;
+  -webkit-animation: 15s aboutimgchange 1s forwards;
+  animation: 15s aboutimgchange 1s forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aboutimgchange {
+  0% {
+    background-image: url(https://4.bp.blogspot.com/-aJLUyjnbNjg/WEZNEf6kokI/AAAAAAAADbg/B-LSnHzIY44K3vkgr7jvNINQxSUv_i7IwCLcB/w1200-h630-p-k-no-nu/ShirkhajiVandana_19.jpg);
+  }
+  25% {
+    background-image: url(https://images.hindustantimes.com/img/2023/01/03/1600x900/Shri-Sammed-Shikharji-is-located-at-Parasnath-Hill_1672741823615.jpg);
+  }
+  50% {
+    background-image: url(https://travelogyindia.b-cdn.net/storage/app/upload/shikharji-temple-jharkhand.jpg);
+  }
+  75% {
+    background-image: url(https://a.cdn-hotels.com/gdcs/production143/d1091/e256d251-6118-4f5e-99f2-5fae64c8e8e9.jpg);
+  }
+  100% {
+    background-image: url(https://www.jharkhandfeed.com/wp-content/uploads/2022/04/Parasnath-01.jpg);
+  }
+}
+/* font and responsive */
+.about-section h1 a {
+  font-size: 5rem;
+  text-decoration: none;
+  text-decoration: underline;
+  color: rgb(232, 72, 72);
+}
+.about-section h1 a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.about-section h3 {
+  text-transform: capitalize;
+  font: bold 24px "Open Sans", sans-serif;
+  /* text-align: center; */
+  padding: 3rem 0;
+}
+
+@media (max-width: 800px) {
+  .about-hero {
+    min-height: 600px;
+  }
+  .about-hero h1 a {
+    font-size: 56px;
+  }
+}
+/* text animation */
+.about-hero-content-area {
+  opacity: 0;
+  margin-top: 100px;
+  -webkit-animation: 1s slidefade 1s forwards;
+  animation: 2s slidefade 1s forwards;
+}
+@-webkit-keyframes slidefade {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
+@keyframes slidefade {
+  100% {
+    opacity: 1;
+    margin: 0;
+  }
+}
+/* btn by UIverse */
+.about-btn {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1a1a1a;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.about-btn:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+/* About section start 4 image ato slide show and text animation */
+
+/* Image animaton end */
+
+/* website services start */
+
+#WebsiteServices {
+  margin: 3rem auto;
+}
+#WebsiteServices h1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 1.4rem;
+}
+
+.WebsiteServices-container {
+  margin: 2rem 0;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  row-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.WebsiteServices {
+  display: flex;
+  background-color: rgb(56, 50, 50);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 20rem;
+  position: relative;
+  padding: 2rem 2.5rem;
+  border-radius: 1.4rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.WebsiteServices span {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.219);
+  position: absolute;
+  top: 0.9rem;
+  left: 1.2rem;
+}
+.WebsiteServices-title {
+  color: (237, 20%, 43%);
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.005rem;
+}
+.WebsiteServices-description {
+  color: (237, 20%, 43%);
+  font-size: 1.09rem;
+  line-height: 1.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.WebsiteServices-description::before {
+  content: "";
+  background-color: (12, 100%, 72%);
+  left: 0;
+  right: 0;
+  height: 0.3rem;
+  position: absolute;
+  bottom: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .WebsiteServices-container {
+    row-gap: 5rem;
+    column-gap: 1rem;
+    place-items: end;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+/* button  */
+.WebsiteServices-button {
+  --primary-color: #645bff;
+  --secondary-color: #fff;
+  --hover-color: #111;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.2s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+}
+
+.WebsiteServices-button .WebsiteServices-arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WebsiteServices-button .WebsiteServices-arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.WebsiteServices-button .WebsiteServices-arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.WebsiteServices-button:hover {
+  background-color: var(--hover-color);
+}
+
+.WebsiteServices-button:hover .WebsiteServices-arrow {
+  background: var(--secondary-color);
+}
+
+.WebsiteServices-button:hover .WebsiteServices-arrow:before {
+  right: 0;
+}
+/* button  */
+/* sebsite services end */
+
+/* home 3 nav start*/
+
+.expand-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+@media only screen and (min-width: 120px) and (max-width: 780px) {
+  .expand-container {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.expand-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: flex 0.5s ease;
+  position: relative;
+}
+
+.expand-section .expand-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: background-color 0.8s ease;
+}
+
+.expand-section .expand-content {
+  z-index: 2;
+}
+.expand-content h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.expand-section:hover {
+  flex: 2;
+}
+.expand-section:hover h1 {
+  color: black;
+}
+.expand-section:hover .expand-overlay {
+  opacity: 0;
+}
+
+#universe {
+  background-image: url(https://1.bp.blogspot.com/-6_3INikYDW8/XEbzjQ5owyI/AAAAAAAAAzs/AU-PzF0pcZktUPafKD-Ga0x5Led1u5eRgCEwYBhgL/s1600/Parasnath-hill-hike-jain-pilgrimage-7.JPG);
+}
+
+#technology {
+  background-image: url(https://i.ytimg.com/vi/oFd92AxajiE/maxresdefault.jpg);
+}
+
+#mission {
+  background-image: url(https://jainpuja.com/jain-puja/images/article-images/Jain-dharm-ko-jane.jpg);
+}
+/* home 3 nav end*/

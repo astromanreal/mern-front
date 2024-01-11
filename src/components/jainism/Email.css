@@ -1,0 +1,226 @@
+.Email-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .Email-container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .Email-container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .Email-container {
+    width: 1170px;
+  }
+}
+
+/* End Global Rules */
+
+/* Start Game */
+
+.Email-game {
+  position: absolute;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .Email-game {
+    position: relative;
+  }
+}
+
+.Email-image {
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-craig-adderley-1563356.jpg&fm=jpg);
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Email-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(237, 76, 33, 0Email-39);
+}
+
+@media (max-width: 767px) {
+  .Email-image {
+    margin-bottom: 0;
+  }
+}
+
+/* End Game */
+
+/* button */
+.Email-cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+}
+
+.Email-cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.Email-cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #e57a1c;
+}
+
+.Email-cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.Email-cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+
+.Email-cta:hover svg {
+  transform: translateX(0);
+}
+
+.Email-cta:active {
+  transform: scale(0.95);
+}
+/* button */
+
+/* Start Register */
+
+.Email-register {
+  padding-bottom: 50px;
+  position: relative;
+  padding-top: 100px;
+}
+
+@media (max-width: 991px) {
+  .Email-register {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Email-register {
+    top: 0;
+  }
+}
+
+.Email-register .Email-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+@media (max-width: 767px) {
+  .Email-register .Email-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+  }
+}
+
+.Email-register .Email-content {
+  background-color: #122333;
+  padding: 10px 25px 30px;
+  flex-basis: 40%;
+  border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+  .Email-register .Email-content {
+    flex-basis: 34%;
+  }
+}
+
+@media (max-width: 767px) {
+  .Email-register .Email-content {
+    width: 100%;
+  }
+}
+
+.Email-register .Email-content h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 74px;
+  line-height: 1Email-2;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.Email-register .Email-content h2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 65px;
+  height: 4px;
+  background-color: #d5cfce;
+}
+
+@media (max-width: 991px) {
+  .Email-register .Email-content h2 {
+    font-size: 40px;
+  }
+}
+
+.Email-register .Email-text {
+  margin-bottom: 40px;
+  flex-basis: 40%;
+  border: 3px solid#f2eeed;
+  padding: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1em;
+}
+
+@media (max-width: 991px) {
+  .Email-register .Email-text {
+    color: wheat;
+    border-radius: 8px;
+  }
+}
+
+/* End Register */

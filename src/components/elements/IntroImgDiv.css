@@ -1,0 +1,24 @@
+/* Xbox */
+.xbox {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 20px;
+}
+
+.xbox .content {
+  width: 40%;
+  float: right;
+  padding: 30px 0 0 10px;
+}
+.xbox .content h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 700px) {
+  .xbox .content {
+    width: 60%;
+  }
+  .xbox .content h1 {
+    font-size: 2.2rem;
+  }
+}

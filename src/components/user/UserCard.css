@@ -1,0 +1,115 @@
+/* Start Box */
+
+.UserCard-box {
+  width: 320px;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .UserCard-box {
+    width: 100%;
+  }
+}
+
+.UserCard-box img {
+  max-width: 100%;
+}
+
+.UserCard-box .UserCard-photo {
+  text-align: right;
+  position: relative;
+}
+
+.UserCard-box .UserCard-photo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 0 2px 10px #ccc;
+  position: absolute;
+  right: 20px;
+  top: -35px;
+}
+
+.UserCard-box .UserCard-content {
+  padding: 0 15px 10px;
+}
+
+.UserCard-box h2 {
+  color: #525252;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.UserCard-box .UserCard-by {
+  color: #777;
+  font-size: 14px;
+}
+
+.UserCard-box .UserCard-by a {
+  color: #009688;
+}
+
+.UserCard-box .UserCard-by i {
+  font-size: 13px;
+}
+
+.UserCard-box p {
+  font-size: 12px;
+  margin: 15px 0;
+  color: #777;
+  line-height: 1UserCard-5;
+}
+
+.UserCard-box .UserCard-location i {
+  color: #3fa3a9;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.UserCard-box .UserCard-location span {
+  color: #777;
+  font-size: 14px;
+}
+
+.UserCard-box .UserCard-progress {
+  width: 100%;
+  height: 13px;
+  background-color: #f1f2f2;
+  position: relative;
+  margin-top: 5px;
+}
+
+.UserCard-box .UserCard-progress span {
+  width: 60%;
+  background-color: #009688;
+  height: 100%;
+  display: block;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.UserCard-box .UserCard-info {
+  display: flex;
+  gap: 60px;
+  margin-top: 15px;
+}
+
+.UserCard-box .UserCard-info .UserCard-unit {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserCard-box .UserCard-info .UserCard-unit span:first-child {
+  font-weight: bold;
+}
+
+.UserCard-box .UserCard-info .UserCard-unit span:last-child {
+  color: #777;
+  font-size: 13px;
+}
+
+/* End Box */

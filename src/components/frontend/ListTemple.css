@@ -1,0 +1,282 @@
+:root {
+  --main-color: #2980b9;
+}
+
+.ListTemple-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .ListTemple-container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .ListTemple-container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .ListTemple-container {
+    width: 1170px;
+  }
+}
+
+/* End Global Rules */
+
+/* Start Featured */
+
+.ListTemple-featured {
+  padding: 50px 0;
+}
+
+.ListTemple-featured .ListTemple-main-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.ListTemple-featured .ListTemple-main-title h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.ListTemple-featured .ListTemple-main-title h2::after {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  width: 75px;
+  height: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -25px;
+}
+
+.ListTemple-featured .ListTemple-main-title p {
+  color: #777;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .ListTemple-featured .ListTemple-lists .ListTemple-list {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list:first-of-type::before {
+  content: "Featured";
+  position: absolute;
+  height: 115px;
+  left: -36px;
+  top: 0;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px;
+  border-right: 3px solid var(--main-color);
+  border-left: 1px solid #f5f5f5;
+}
+
+@media (max-width: 767px) {
+  .ListTemple-featured
+    .ListTemple-lists
+    .ListTemple-list:first-of-type::before {
+    display: none;
+  }
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-image img {
+  max-width: 120px;
+  border: 3px solid #ebebeb;
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .ListTemple-featured
+    .ListTemple-lists
+    .ListTemple-list
+    .ListTemple-image
+    img {
+    max-width: 250px;
+  }
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-text {
+  width: 550px;
+}
+
+@media (max-width: 1199px) {
+  .ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-text {
+    width: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-text {
+    width: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-text {
+    width: 100%;
+  }
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list
+  .ListTemple-text
+  .ListTemple-type {
+  background-color: #7fb13d;
+  color: white;
+  font-size: 11px;
+  padding: 3px 15px;
+  border-radius: 4px;
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-text h3 {
+  font-size: 18px;
+  margin: 11px 0px;
+  color: black;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list
+  .ListTemple-text
+  .ListTemple-info {
+  color: #777;
+  font-size: 12px;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list
+  .ListTemple-text
+  .ListTemple-info
+  span {
+  color: black;
+  margin-right: 20px;
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-location {
+  width: 100px;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list
+  .ListTemple-location
+  span:first-of-type {
+  color: #707070;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list
+  .ListTemple-location
+  span:last-of-type {
+  color: #888;
+  font-size: 13px;
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-price {
+  text-align: center;
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list .ListTemple-price p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list
+  .ListTemple-price
+  button {
+  background-color: var(--main-color);
+  color: white;
+  border: 0;
+  width: 130px;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list:nth-of-type(3)
+  .ListTemple-text
+  .ListTemple-type {
+  background-color: var(--main-color);
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list:nth-of-type(4)
+  .ListTemple-text
+  .ListTemple-type {
+  background-color: #8e44ad;
+}
+
+.ListTemple-featured .ListTemple-lists .ListTemple-list:last-of-type {
+  border-bottom: 0;
+}
+
+.ListTemple-featured
+  .ListTemple-lists
+  .ListTemple-list:last-of-type
+  .ListTemple-text
+  .ListTemple-type {
+  background-color: var(--main-color);
+}
+
+.ListTemple-featured .ListTemple-more {
+  background-color: var(--main-color);
+  color: white;
+  border: 1px solid var(--main-color);
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 45px;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ListTemple-featured .ListTemple-more:hover {
+  color: var(--main-color);
+  background-color: white;
+  border: 1px solid var(--main-color);
+}
+
+/* End Featured */

@@ -1,0 +1,26 @@
+.parallax-wrapper {
+  height: 100vh;
+  perspective: 10px;
+}
+.parallax-content {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  z-index: 1;
+  transform: translateZ(1px);
+}
