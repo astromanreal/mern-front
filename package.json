@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "proxy": "https://shikharji-api.vercel.app/",
+  "proxy": "https://shikharji-api.vercel.app",
 
   "version": "0.1.0",
   "private": true,
