@@ -3,18 +3,6 @@
     {
       "src": "/blog",
       "dest": "https://shikharji-api.vercel.app/blog"
-    },
-        {
-      "src": "/jainism",
-      "dest": "https://shikharji-api.vercel.app/jainism"
-    },
-        {
-      "src": "/temple",
-      "dest": "https://shikharji-api.vercel.app/temple"
-    },
-        {
-      "src": "/image/temple",
-      "dest": "https://shikharji-api.vercel.app/image/temple"
     }
   ]
 }
