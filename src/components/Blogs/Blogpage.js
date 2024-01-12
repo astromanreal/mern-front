@@ -6,13 +6,10 @@ export default function Blogpage() {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-
-    
     // get All blogs
     const getAllBlogs = async () => {
       try {
-         const apiUrl = process.env.REACT_APP_API_BASE_URL;
-        const { data } = await axios.get(`${apiUrl}/blog`);
+        const { data } = await axios.get("/blog");
         if (data?.success) {
           setBlogs(data?.blogs);
         }
