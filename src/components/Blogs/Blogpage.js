@@ -11,7 +11,7 @@ export default function Blogpage() {
     // get All blogs
     const getAllBlogs = async () => {
       try {
-         const apiUrl = process.env.REACT_APP_API_BASE_URL || 'https://shikharji-api.vercel.app';
+         const apiUrl = process.env.REACT_APP_API_BASE_URL;
         const { data } = await axios.get(`${apiUrl}/blog`);
         if (data?.success) {
           setBlogs(data?.blogs);
