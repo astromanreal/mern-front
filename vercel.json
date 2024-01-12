@@ -4,6 +4,6 @@
       "src": "/blog",
       "dest": "https://api.example.com/blog"
     },
-    // Add other routes as needed
+  
   ]
 }
