@@ -1,12 +1,12 @@
 {
   "routes": [
     {
-      "src": "^/(api|blog|other-api-endpoints)/(.*)",
-      "dest": "https://shikharji-api.vercel.app/$1/$2",
+      "src": "/api/(.*)",
+      "dest": "https://shikharji-api.vercel.app/$1",
       "methods": ["GET", "POST", "PUT", "DELETE"]
     },
     {
-      "src": "^/(.*)",
+      "src": "/(.*)",
       "dest": "/$1",
       "methods": ["GET"]
     }
