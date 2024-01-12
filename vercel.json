@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/blog",
-      "dest": "https://api.example.com/blog"
+      "dest": "https://shikharji-api.vercel.app/blog"
     },
   
   ]
