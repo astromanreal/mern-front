@@ -9,7 +9,7 @@ export default function Blogpage() {
     // get All blogs
     const getAllBlogs = async () => {
       try {
-        const { data } = await axios.get("https://shikharji-api.vercel.app/blog");
+        const { data } = await axios.get("/blog");
         if (data?.success) {
           setBlogs(data?.blogs);
         }
