@@ -16,7 +16,7 @@ export default function BlogCard({ id, title, author, img, desc }) {
           </Link>
           <div class="blog-main-categories">
             <span>temple</span>
-            <span>{id}</span>
+            <span>Jain</span>
           </div>
         </div>
         <img class="blog-main-image" src={img} alt="not found" />
