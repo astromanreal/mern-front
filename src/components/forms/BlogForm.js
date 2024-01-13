@@ -29,7 +29,7 @@ export default function BlogForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/blog", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/blog", {
         title: inputs.title,
         image: inputs.image,
         description: inputs.description,
