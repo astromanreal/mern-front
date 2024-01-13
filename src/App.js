@@ -2,6 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 import Fixnav from "./components/Navbar/Navbar.js/Fixnav";
 import Navbar from "./components/Navbar/Navbar.js/Navbar";
@@ -80,6 +81,7 @@ function App() {
 
       <Footer />
    <SpeedInsights />
+     <Analytics />
     </>
   );
 }
