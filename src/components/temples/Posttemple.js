@@ -27,7 +27,7 @@ export default function Posttemple() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/temple", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/temple", {
         name: inputs.name,
         location: inputs.location,
         description: inputs.description,
