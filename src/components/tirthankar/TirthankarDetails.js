@@ -9,7 +9,7 @@ export default function TirthankarDetails() {
   useEffect(() => {
     const getTirthankarDetail = async () => {
       try {
-        const { data } = await axios.get(`/tirthankar/${id}`);
+        const { data } = await axios.get(`https://shikharji-api.vercel.app/tirthankar/${id}`);
         if (data?.tirthankar) {
           setTirthankars([data?.tirthankar]);
         }
