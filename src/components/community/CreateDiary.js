@@ -22,7 +22,7 @@ export default function CreateDiary() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/diary", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/diary", {
         title: inputs.title,
         description: inputs.description,
         location: inputs.location,
