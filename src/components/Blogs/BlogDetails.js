@@ -49,13 +49,6 @@ export function BlogDetailsPage() {
           pellentesque ac a tellus.
         </p>
 
-        <p>
-          Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero
-          pellentesque interdum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Sed iaculis ligula ut aliquam aliquet. Vivamus vel
-          elementum lectus. Interdum et malesuada fames ac ante ipsum primis in
-          faucibus. Quisque vel erat leo. Donec rhoncus nec orci eget rutrum.
-        </p>
 
         <h2 id="two">Flapping Around, Flying All Over</h2>
         <p>
@@ -70,16 +63,7 @@ export function BlogDetailsPage() {
           Cras ac convallis elit.
         </p>
 
-        <p>
-          In hac habitasse platea dictumst. Aenean sit amet libero lorem.
-          Quisque in sagittis nisl, placerat auctor tellus. Suspendisse
-          scelerisque eget tortor eu porta. Nulla sollicitudin justo et ipsum
-          placerat efficitur vel vel dui. Vestibulum placerat lorem ac leo
-          mollis, et finibus nisl finibus. Pellentesque tempus ut ante non
-          ullamcorper. Vivamus neque tellus, varius quis mi eu, fermentum
-          laoreet orci. Quisque nisi elit, fringilla in ligula ut, molestie
-          ultricies massa. Curabitur nec suscipit metus.
-        </p>
+       
         <blockquote class="pullquote">
           "Be like the bird who, pausing in her flight awhile on boughs too
           slight, feels them give way beneath her, and yet sings, knowing she
@@ -98,21 +82,7 @@ export function BlogDetailsPage() {
         </p>
 
         <h2 id="three">Building Nests, Eating Bugs</h2>
-        <p>
-          Mauris eu nunc a dolor aliquam molestie vitae non turpis. Curabitur
-          mollis vehicula euismod. Mauris eleifend, ipsum nec tempor
-          condimentum, massa arcu lobortis erat, eget iaculis turpis turpis id
-          nisi. Fusce iaculis velit nibh, a molestie neque placerat interdum.
-          Phasellus eget erat placerat, viverra quam vitae, viverra ligula.
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas. Nulla dictum, enim vitae eleifend vehicula,
-          augue arcu dapibus metus, non accumsan nulla urna id mauris. Nunc non
-          mi turpis. Nullam bibendum magna in metus tincidunt, vel dapibus neque
-          placerat. Orci varius natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus. Vestibulum felis libero, consequat vel
-          congue et, ultricies ornare arcu. Mauris vitae felis vitae nulla
-          ornare condimentum.
-        </p>
+       
 
         <p>
           Nam tincidunt vel risus et dictum. Quisque efficitur quam vel libero
