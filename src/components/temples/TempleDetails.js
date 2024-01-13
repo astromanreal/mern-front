@@ -9,7 +9,7 @@ export default function TempleDetails() {
   useEffect(() => {
     const getTempleDetails = async () => {
       try {
-        const { data } = await axios.get(`/temple/${id}`);
+        const { data } = await axios.get(`https://shikharji-api.vercel.app/temple/${id}`);
         if (data?.success) {
           setTemple([data?.temple]);
         }
