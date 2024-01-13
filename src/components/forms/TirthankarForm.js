@@ -36,7 +36,7 @@ export default function TirthankarForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/tirthankar", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/tirthankar", {
         name: inputs.name,
         image: inputs.image,
         lifespan: inputs.lifespan,
