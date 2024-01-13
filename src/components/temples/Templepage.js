@@ -9,7 +9,7 @@ export default function Templepage() {
   useEffect(() => {
     const getAllTemples = async () => {
       try {
-        const { data } = await axios.get("/temple");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/temple");
         if (data?.success) {
           setTemples(data?.temple);
         }
@@ -25,7 +25,7 @@ export default function Templepage() {
   useEffect(() => {
     const getAllImage = async () => {
       try {
-        const { data } = await axios.get("/sikharji/images");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/sikharji/images");
         if (data?.success) {
           setImage(data?.images);
         }
