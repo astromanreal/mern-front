@@ -2,7 +2,6 @@ import axios from "axios";
 import "./BlogDetail.css";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import HeaderBlog from "./HeaderBlog";
 
 export default function BlogDetails() {
   const id = useParams().id;
@@ -32,10 +31,29 @@ export default function BlogDetails() {
   );
 }
 
+
+export function BlogHeader(){
+return(
+  <>
+   <div class="HeaderBlog-wrapper">
+        <div class="">
+          <h1>Andrew Wright</h1>
+          <h2>Design • Lettering • Illustration</h2>
+        </div>
+        <p>
+          I’m a designer who makes nice things for nice folks. My portfolio is
+          currently baking at 350° for a few more weeks. Consectetur adipisicing
+          elit.
+        </p>
+      </div>
+  </>
+)
+}
+
 export function BlogDetailsPage() {
   return (
     <>
-      <HeaderBlog />
+    <BlogHeader/>
       <article id="Birds-article">
         <h2 id="one">You Gotta Love Birds</h2>
         <p>
