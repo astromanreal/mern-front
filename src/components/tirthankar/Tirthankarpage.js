@@ -2,7 +2,6 @@ import axios from "axios";
 import "./TirthankarPage.css";
 import React, { useEffect, useState } from "react";
 import TirthankarCard from "./TirthankarCard";
-import CreateTirthankar from "./CreateTirthankar";
 import { Link } from "react-router-dom";
 
 export default function Tirthankarpage() {
@@ -42,7 +41,6 @@ export default function Tirthankarpage() {
           })}
       </div>
 
-       <CreateTirthankar/>
     </>
   );
 }
