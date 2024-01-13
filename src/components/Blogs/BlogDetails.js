@@ -10,7 +10,7 @@ export default function BlogDetails() {
   useEffect(() => {
     const getBlogDetails = async () => {
       try {
-        const { data } = await axios.get(`/blog/${id}`);
+        const { data } = await axios.get(`https://shikharji-api.vercel.app/blog/${id}`);
         if (data?.success) {
           setBlog([data?.blog]);
         }
