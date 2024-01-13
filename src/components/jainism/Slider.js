@@ -9,7 +9,7 @@ export default function Slider() {
   useEffect(() => {
     const getAllBlogs = async () => {
       try {
-        const { data } = await axios.get("/jainism");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/jainism");
         if (data?.success) {
           setBlogs(data?.blogs);
         }
