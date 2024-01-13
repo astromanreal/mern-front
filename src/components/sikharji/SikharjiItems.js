@@ -44,7 +44,7 @@ export function SikharjiGallery() {
   useEffect(() => {
     const getAllImage = async () => {
       try {
-        const { data } = await axios.get("/sikharji/images");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/sikharji/images");
         if (data?.success) {
           setImage(data?.images);
         }
