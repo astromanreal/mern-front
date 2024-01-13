@@ -68,7 +68,7 @@ export function SikharjiFeatureMountain() {
   useEffect(() => {
     const getAllImage = async () => {
       try {
-        const { data } = await axios.get("/image/mountain");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/image/mountain");
         if (data?.success) {
           setImage(data?.images);
         }
@@ -125,7 +125,7 @@ export function SikharjiFeatureTemple() {
   useEffect(() => {
     const getAllTemples = async () => {
       try {
-        const { data } = await axios.get("/sikharji/temples");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/sikharji/temples");
         if (data?.success) {
           setTemples(data?.temples);
         }
@@ -140,7 +140,7 @@ export function SikharjiFeatureTemple() {
   useEffect(() => {
     const getAllImage = async () => {
       try {
-        const { data } = await axios.get("/image/temple");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/image/temple");
         if (data?.success) {
           setImage(data?.images);
         }
@@ -242,7 +242,7 @@ export function SikharjiFeatureBlogSlider() {
   useEffect(() => {
     const getAllBlogs = async () => {
       try {
-        const { data } = await axios.get("/sikharji/blog");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/sikharji/blog");
         if (data?.success) {
           setBlogs(data?.blogs);
         }
