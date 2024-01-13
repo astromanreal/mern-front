@@ -41,7 +41,7 @@ export default function CreateDiary() {
     <>
       <div className="flex-center-all">
         <form className="Uiregister-form" onSubmit={handleSubmit} method="post">
-          <p className="Uiregister-title">Register a temple </p>
+          <p className="Uiregister-title">Share your Experience! </p>
           <p className="Uiregister-message">
             Signup now and get full access to our app.
           </p>
