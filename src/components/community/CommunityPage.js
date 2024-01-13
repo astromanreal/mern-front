@@ -9,7 +9,7 @@ export default function CommunityPage() {
     // get All blogs
     const getAllDiary = async () => {
       try {
-        const { data } = await axios.get("/diary");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/diary");
         if (data?.success) {
           setDiary(data?.diary);
         }
