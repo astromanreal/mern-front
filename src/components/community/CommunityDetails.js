@@ -10,7 +10,7 @@ export default function CommunityDetails() {
   useEffect(() => {
     const getDiaryDetails = async () => {
       try {
-        const { data } = await axios.get(`/diary/${id}`);
+        const { data } = await axios.get(`https://shikharji-api.vercel.app/diary/${id}`);
         if (data?.success) {
           setDiary([data?.diary]);
         }
