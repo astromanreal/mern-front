@@ -33,7 +33,7 @@ export default function Logsign() {
   const handelRegisterSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/user", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/user", {
         username: inputs.name,
         email: inputs.email,
         password: inputs.password,
@@ -51,7 +51,7 @@ export default function Logsign() {
   const handelLoginSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/user/login", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/user/login", {
         email: loginput.email,
         password: loginput.password,
       });
