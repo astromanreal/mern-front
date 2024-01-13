@@ -10,7 +10,7 @@ export default function Tirthankarpage() {
   useEffect(() => {
     const getAllTirthankars = async () => {
       try {
-        const { data } = await axios.get("/tirthankar");
+        const { data } = await axios.get("https://shikharji-api.vercel.app/tirthankar");
         if (data?.success) {
           setTirthankars(data?.tirthankar);
         }
