@@ -33,7 +33,7 @@ export default function TempleForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/temple", {
+      const { data } = await axios.post("https://shikharji-api.vercel.app/temple", {
         name: inputs.name,
         introduction: inputs.introduction,
         place: inputs.place,
