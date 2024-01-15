@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NASA from "./NASA";
 
 export default function Nothing() {
   return (
     <>
-      <NASA />
+   
       <div className=" center-404">
         <h1>You lost your orbit!!</h1>
         <h3>The page is not ready yet..</h3>
